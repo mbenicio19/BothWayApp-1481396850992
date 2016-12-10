@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: BothWayApp
+  host: BothWayApp
+  disk_quota: 1024M
+  services:
+  - BothWayApp-AdvancedMobileAccess
+  - BothWayApp-imfpush
+  - BothWayApp-cloudantNoSQLDB
